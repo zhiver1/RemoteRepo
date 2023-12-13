@@ -1,0 +1,50 @@
+GIT
+initialise your git >> git init
+git config -l list all git configuration 
+git add
+git commit
+git push 
+This is the push back approach 
+username : snehavd
+password: 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
+passwrd : Pushkaraj@1992
+
+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
+
+Git commands
+ 
+	git config   help set auther name, email  to be used for future commet
+ 
+		git config --global user.name "satishmahajan11"
+		git config --global user.email ""
+ 
+		git config -l
+ 
+	git --version   to check current git version
+ 
+	git init :- It help to create local repository  (one time)
+ 
+		for eg git init LocalRepo
+ 
+	A) Pull Base approch
+ 
+	git clone "git remote repo url"
+ 
+		for eg 
+                 git clone ""
+		git add origin ""
+ 
+ 
+	git add :- It helps to change status of files from "unstage" to "stage" (files will indexs into git)
+		git add ./CarDetails/.
+		git add ./CustomerDetails/.
+	git commit -m "first commit"  :- It helps to commit changes into local repo
+ 
+	git log :- It help to see all commit message (latest message will display on top)
+ 
+	git push -u origin main   :- It Helps to commited files from localrepo to remote repo 
+	git branch -M main
+	git remote add origin path  > to sync with remote repository 
+	git push -u origin main
+ 
+	git status
